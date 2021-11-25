@@ -1,8 +1,8 @@
-# BMI Calculator
+# Project name
 
 BMI (Body Mass Index) Calculator is a tool that allows users to calculate a patient's BMI and determine their BMI Category and Health Risk.
 
-The patient's weight and height is read into the application in the form of JSON and as a result, a modified version of the JSON and the number of patients in the Overweight category is printed to the Command Line.
+The patient's info is read into the application from a file and as a result, a modified version of the JSON and the number of patients in the Overweight category is printed to the Command Line.
 
 **Note:** The Number of overweight patients is based on patients in the Overweight BMI category rather than patients which are considered overweight (i.e. The combination of categories Overweight, Moderately obese, Severely obese and Very severely obese).
 
@@ -19,25 +19,25 @@ To run BMI Calculator, follow these steps in your preferred terminal:
 
 1. Clone the repository onto your local machine
 
-    `git clone https://github.com/jaydotel/code-20211125-jeffreyliang.git`
+`git clone https://github.com/jaydotel/code-20211125-jeffreyliang.git`
 
 2. (Optional) If you will be developing on this project, navigate to the root folder and install development packages:
     
-    `pipenv install --dev`
+`pipenv install --dev`
 
 ## Using BMI Calculator
 
 To use BMI Calculator, follow these steps:
 
-1. Add your own patient data own into `[rootdir]/data/patient-data.json`, ensuring your data is in the same format as the sample data pre-existing in the file. Alternatively, use the sample data provided if you'd like the test the application)
-2. Run BMI Calculator
+1. Add your patient data into `<rootdir>/data/patient-data.json`, ensuring your data is in the same format as the sample data that's pre-existing in the file. Alternatively, use the sample data provided if you'd like the test the application.
+2. Run BMI Calculator.
 
-    `python -m bmicalculator.bmi_calculator`
+`python -m bmicalculator.bmi_calculator`
 
-3. You will see your patient data with three new columns, `BMI`, `BMI Category` and `Health Risk`. You'll also see the total number of patients which belong to the Overweight category.
+3. Patient data with three new columns, `BMI`, `BMI Category` and `Health Risk` and total number of patients which belong to the Overweight category will be printed out to the command line/stdout.
 
 ## Running Unit Tests
 
 From the project's root directory run:
 
-    `python -m unittest`
+`python -m unittest`
