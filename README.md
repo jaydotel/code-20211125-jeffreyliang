@@ -1,4 +1,4 @@
-# Project name
+# BMI Calculator
 
 BMI (Body Mass Index) Calculator is a tool that allows users to calculate a patient's BMI and determine their BMI Category and Health Risk.
 
